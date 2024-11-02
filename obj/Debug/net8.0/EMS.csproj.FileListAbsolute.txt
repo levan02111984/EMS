@@ -249,6 +249,7 @@ C:\Users\Van\source\repos\EMS\obj\Debug\net8.0\EMS.MvcApplicationPartsAssemblyIn
 C:\Users\Van\source\repos\EMS\obj\Debug\net8.0\EMS.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Van\source\repos\EMS\obj\Debug\net8.0\EMS.RazorAssemblyInfo.cache
 C:\Users\Van\source\repos\EMS\obj\Debug\net8.0\EMS.RazorAssemblyInfo.cs
+C:\Users\Van\source\repos\EMS\obj\Debug\net8.0\EMS.sourcelink.json
 C:\Users\Van\source\repos\EMS\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Van\source\repos\EMS\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Van\source\repos\EMS\obj\Debug\net8.0\staticwebassets\msbuild.EMS.Microsoft.AspNetCore.StaticWebAssets.props

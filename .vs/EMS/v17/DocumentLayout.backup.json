@@ -3,68 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Van\\source\\repos\\EMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\models\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:models\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\data\\migrations\\20241031152525_updateemployeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:data\\migrations\\20241031152525_updateemployeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\data\\migrations\\20241031150519_employeesdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:data\\migrations\\20241031150519_employeesdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\data\\migrations\\20241031134218_employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:data\\migrations\\20241031134218_employeedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,23 +38,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T03:34:55.958Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T08:06:06.889Z",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T03:34:52.217Z",
               "EditorCaption": ""
             },
             {
@@ -101,181 +78,61 @@
               "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAwD0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:54:21.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20241031152525_UpdateEMployeee.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\Migrations\\20241031152525_UpdateEMployeee.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20241031152525_UpdateEMployeee.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\Migrations\\20241031152525_UpdateEMployeee.cs",
-              "RelativeToolTip": "Data\\Migrations\\20241031152525_UpdateEMployeee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:25:25.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:19:15.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Details.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Details.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T15:12:14.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Edit.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T15:14:16.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Delete.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAIAwwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T15:23:49.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA4wA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:32:57.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAgwDUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:19:53.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEBAAAAAAAAAAAAADUBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T13:06:12.71Z",
+              "WhenOpened": "2024-11-02T03:34:42.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Create.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Create.cshtml",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAYwFsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:36:46.655Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20241031150519_EmployeesDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\Migrations\\20241031150519_EmployeesDetail.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20241031150519_EmployeesDetail.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\Migrations\\20241031150519_EmployeesDetail.cs",
-              "RelativeToolTip": "Data\\Migrations\\20241031150519_EmployeesDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:05:19.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20241031134218_EmployeeDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\Migrations\\20241031134218_EmployeeDetails.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20241031134218_EmployeeDetails.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\Migrations\\20241031134218_EmployeeDetails.cs",
-              "RelativeToolTip": "Data\\Migrations\\20241031134218_EmployeeDetails.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:42:18.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Program.cs",
               "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAEwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:57:05.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:32:53.751Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T02:42:30.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserActivity.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\UserActivity.cs",
-              "RelativeDocumentMoniker": "Models\\UserActivity.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\UserActivity.cs",
-              "RelativeToolTip": "Models\\UserActivity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:25:41.345Z"
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T02:04:34.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAB6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-31T13:05:15.77Z"
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAE4BAAAAAAAAAAAiwF4BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T13:06:12.71Z",
+              "EditorCaption": ""
             }
           ]
         }
