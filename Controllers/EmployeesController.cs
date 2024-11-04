@@ -7,22 +7,27 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using EMS.Data;
 using EMS.Models;
+using EMS.Repositories;
+using System.Net;
 
 namespace EMS.Controllers
 {
     public class EmployeesController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly IGenericRepository<Employee> _repository;
 
-        public EmployeesController(ApplicationDbContext context)
+        public EmployeesController(IGenericRepository<Employee> repository)
         {
-            _context = context;
+            _repository = repository;
         }
+
+        //private readonly ApplicationDbContext _context =new();
 
         // GET: Employees
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Employees.ToListAsync());
+            var employeeList = await _repository.GetAllAsync();
+            return View(employeeList);
         }
 
         // GET: Employees/Details/5
@@ -31,10 +36,10 @@ namespace EMS.Controllers
             if (id == null)
             {
                 return NotFound();
+         
             }
 
-            var employee = await _context.Employees
-                .FirstOrDefaultAsync(m => m.Id == id);
+            Employee employee = await _repository.GetByIdAsync(id);
             if (employee == null)
             {
                 return NotFound();
@@ -61,8 +66,8 @@ namespace EMS.Controllers
                 employee.CreatedByID = "Van";
                 employee.CreatedOn = DateTime.Now;
 
-                _context.Add(employee);
-                await _context.SaveChangesAsync();
+                await _repository.InsertAsync(employee);
+                await _repository.SaveAsync();
                 return RedirectToAction(nameof(Index));
             }
             return View(employee);
@@ -76,7 +81,7 @@ namespace EMS.Controllers
                 return NotFound();
             }
 
-            var employee = await _context.Employees.FindAsync(id);
+            var employee = await _repository.GetByIdAsync(id);
             if (employee == null)
             {
                 return NotFound();
@@ -100,12 +105,13 @@ namespace EMS.Controllers
             {
                 try
                 {
-                    _context.Update(employee);
-                    await _context.SaveChangesAsync();
+                    await _repository.UpdateAsync(employee);
+                    await _repository.SaveAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!EmployeeExists(employee.Id))
+                    var emp = await _repository.GetByIdAsync(employee.Id);
+                    if (emp==null)
                     {
                         return NotFound();
                     }
@@ -127,8 +133,8 @@ namespace EMS.Controllers
                 return NotFound();
             }
 
-            var employee = await _context.Employees
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var employee = await _repository.GetByIdAsync(id);
+                
             if (employee == null)
             {
                 return NotFound();
@@ -142,19 +148,16 @@ namespace EMS.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var employee = await _context.Employees.FindAsync(id);
+            var employee = await _repository.GetByIdAsync(id);
             if (employee != null)
             {
-                _context.Employees.Remove(employee);
+                await _repository.DeleteAsync(employee);
+                await _repository.SaveAsync();
             }
 
-            await _context.SaveChangesAsync();
+            
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EmployeeExists(int id)
-        {
-            return _context.Employees.Any(e => e.Id == id);
-        }
     }
 }
