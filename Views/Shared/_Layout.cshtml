@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="~/adminlte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
     <!-- iCheck -->
     <link rel="stylesheet" href="~/adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-@*     <!-- JQVMap -->
+    @*     <!-- JQVMap -->
     <link rel="stylesheet" href="~/adminlte/plugins/jqvmap/jqvmap.min.css"> *@
     <!-- Theme style -->
     <link rel="stylesheet" href="~/adminlte/dist/css/adminlte.min.css">
@@ -232,6 +232,119 @@
                                 </p>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                   Leave Applications
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-controller="LeaveTypes" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Leave Types
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="LeaveTypes" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Pending Application
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="LeaveTypes" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Approved Application
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                    System Administrations
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-controller="LeaveTypes" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Leave Types
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="departments" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Departments
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="Designations" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Designations
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="Banks" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Banks
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="Countries" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Countries
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="Cities" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            Town /Cities
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="SystemCodes" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            SystemCode
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="SystemCodeDetails" action="index" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>
+                                            SystemCode Detail
+                                        </p>
+                                    </a>
+                                </li>
+       
+
+                            </ul>
+                        </li>
+
 
                     </ul>
                 </nav>
@@ -330,7 +443,7 @@
     <!-- AdminLTE for demo purposes -->
     <script src="~/adminlte/dist/js/demo.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-   @*  <script src="~/adminlte/dist/js/pages/dashboard.js"></script> *@
+    @*  <script src="~/adminlte/dist/js/pages/dashboard.js"></script> *@
     <!-- Page specific script -->
     <script>
         $(function () {
@@ -338,7 +451,7 @@
                 "responsive": true, "lengthChange": false, "autoWidth": false,
                 "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
             }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-           
+
         });
     </script>
 

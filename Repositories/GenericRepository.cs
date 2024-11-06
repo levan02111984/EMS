@@ -17,24 +17,7 @@ namespace EMS.Repositories
         public GenericRepository(ApplicationDbContext context)
         {
             _context = context;
-            _dbSet = context.Set<T>();
-        }
-
-        public async Task DeleteAsync(object Id)
-        {
-            var entity = await _dbSet.FindAsync(Id);
-            if (entity != null)
-            {
-                {
-                    _dbSet.Remove(entity);
-                    await _context.SaveChangesAsync();
-                }
-            }
-        }
-
-        public void Dispose()
-        {
-            throw new NotImplementedException();
+            _dbSet = context.Set<T>(); // Will be used later
         }
 
         public async Task<List<T>> GetAllAsync()
@@ -49,17 +32,34 @@ namespace EMS.Repositories
 
         public async Task InsertAsync(T entity)
         {
-            await _dbSet.AddAsync(entity);
+            await _dbSet.AddAsync(entity); // Mark EntityState as Modified
         }
 
         public async Task UpdateAsync(T entity)
         {
-            _dbSet.Update(entity); // Mark the entity state as modified/
+            _dbSet.Update(entity); // Mark EntityState as Modified
         }
 
+        public async Task DeleteAsync(object Id)
+        {
+            var entity = await _dbSet.FindAsync(Id);
+            if (entity != null)
+            {
+                {
+                    _dbSet.Remove(entity);
+                }
+            }
+        }
+
+        //Do Save DbContext into the Database
         public async Task SaveAsync()
         {
             await _context.SaveChangesAsync();
+        }
+
+        public void Dispose()
+        {
+            _context.Dispose();
         }
     }
 }

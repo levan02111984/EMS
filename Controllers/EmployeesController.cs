@@ -9,6 +9,7 @@ using EMS.Data;
 using EMS.Models;
 using EMS.Repositories;
 using System.Net;
+using EMS.ViewModel;
 
 namespace EMS.Controllers
 {
@@ -21,12 +22,12 @@ namespace EMS.Controllers
             _repository = repository;
         }
 
-        //private readonly ApplicationDbContext _context =new();
-
         // GET: Employees
         public async Task<IActionResult> Index()
         {
+           
             var employeeList = await _repository.GetAllAsync();
+            
             return View(employeeList);
         }
 
@@ -39,7 +40,7 @@ namespace EMS.Controllers
          
             }
 
-            Employee employee = await _repository.GetByIdAsync(id);
+            var employee = await _repository.GetByIdAsync(id);
             if (employee == null)
             {
                 return NotFound();

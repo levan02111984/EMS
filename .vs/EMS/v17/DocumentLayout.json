@@ -3,44 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Van\\source\\repos\\EMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\models\\systemcodedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:models\\systemcodedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\models\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:models\\useractivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\controllers\\systemcodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:controllers\\systemcodescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|c:\\users\\van\\source\\repos\\ems\\views\\cities\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F98C321-B8DA-42EF-B839-5D55FE06F4DA}|EMS.csproj|solutionrelative:views\\cities\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,50 +41,76 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 186,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\UserActivity.cs",
+              "RelativeDocumentMoniker": "Models\\UserActivity.cs",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\UserActivity.cs",
+              "RelativeToolTip": "Models\\UserActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:14:06.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SystemCodeDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\SystemCodeDetail.cs",
+              "RelativeDocumentMoniker": "Models\\SystemCodeDetail.cs",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\SystemCodeDetail.cs",
+              "RelativeToolTip": "Models\\SystemCodeDetail.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:13:32.81Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDgAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SystemCodesController.cs",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\SystemCodesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SystemCodesController.cs",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\SystemCodesController.cs",
+              "RelativeToolTip": "Controllers\\SystemCodesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T06:11:02.795Z",
+              "WhenOpened": "2024-11-06T16:13:46.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T06:10:11.224Z",
+              "WhenOpened": "2024-11-06T16:13:02.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Repositories\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Repositories\\IGenericRepository.cs",
-              "RelativeToolTip": "Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T06:10:27.723Z",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADMBAAAAAAAAAAAAAE8BAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T16:09:38.843Z",
               "EditorCaption": ""
             },
             {
@@ -103,83 +121,36 @@
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T06:10:24.831Z",
+              "WhenOpened": "2024-11-06T16:08:55.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:53:36.345Z",
+              "WhenOpened": "2024-11-06T16:07:40.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:04:47.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Employees\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T03:34:55.958Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Cities\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cities\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Cities\\Create.cshtml",
+              "RelativeToolTip": "Views\\Cities\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T03:34:52.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T02:04:34.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Van\\source\\repos\\EMS\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIBAAAAAAAAAAAUwFYBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T13:06:12.71Z"
+              "WhenOpened": "2024-11-06T16:01:16.952Z",
+              "EditorCaption": ""
             }
           ]
         }
