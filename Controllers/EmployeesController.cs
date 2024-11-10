@@ -40,15 +40,6 @@ namespace EMS.Controllers
             //var coutryList = await _dbcontext.Countries.ToListAsync();
             //var departmentList = await _dbcontext.Departments.ToListAsync();
 
-
-            //var employeeViewModel = new EmployeeViewModel
-            //{
-            //    Employees = employeeList,
-            //    CountryName = this.GetStringName<Country>(coutryList, employee.Id),
-            //    DesignationName = this.GetStringName<Designation>(designationList, employee.Id),
-            //    DepartmentName = this.GetStringName<Department>(departmentList, employee.Id),
-            //};
-
             
             //Get Result from 4 table and Map the result to EmployeeViewModel
             var resultEmployeeView = await (from emp in _dbcontext.Employees
@@ -65,10 +56,6 @@ namespace EMS.Controllers
                            DepartmentName = dep.Name,
                            DesignationName = des.Name
                        }).ToListAsync();
-
-
-
-
 
             return View(resultEmployeeView);
         }
@@ -87,8 +74,22 @@ namespace EMS.Controllers
             {
                 return NotFound();
             }
+            var resultEmployeeView = await (from emp in _dbcontext.Employees
+                                            from cty in _dbcontext.Countries
+                                            from dep in _dbcontext.Departments
+                                            from des in _dbcontext.Designations
+                                            where emp.CountryID == cty.Id &&
+                                            emp.DepartmentID == dep.Id &&
+                                            emp.DesignationID == des.Id
+                                            select new EmployeeViewModel
+                                            {
+                                                Employee = emp,
+                                                CountryName = cty.Name,
+                                                DepartmentName = dep.Name,
+                                                DesignationName = des.Name
+                                            }).FirstOrDefaultAsync(p=>p.Employee.Id == id);
 
-            return View(employee);
+            return View(resultEmployeeView);
         }
 
         // GET: Employees/Create
