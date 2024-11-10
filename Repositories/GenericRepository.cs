@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using EMS.Data;
+using System.Diagnostics.Eventing.Reader;
 
 namespace EMS.Repositories
 {
@@ -30,16 +31,19 @@ namespace EMS.Repositories
             return await _dbSet.FindAsync(Id);
         }
 
+        //Insert DbSet
         public async Task InsertAsync(T entity)
         {
             await _dbSet.AddAsync(entity); // Mark EntityState as Modified
         }
 
+        //Update DbSet
         public async Task UpdateAsync(T entity)
         {
             _dbSet.Update(entity); // Mark EntityState as Modified
         }
 
+        //Delete DbSet
         public async Task DeleteAsync(object Id)
         {
             var entity = await _dbSet.FindAsync(Id);
@@ -57,9 +61,26 @@ namespace EMS.Repositories
             await _context.SaveChangesAsync();
         }
 
+
+        private bool disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (this.disposed == false)
+            {
+                if (disposing)
+                {
+                    _context.Dispose();
+                }
+            }
+            this.disposed = true;
+        }
+            
+
         public void Dispose()
         {
-            _context.Dispose();
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
     }
 }

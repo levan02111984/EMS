@@ -18,6 +18,9 @@ builder.Services.AddControllersWithViews();
 //Registering the GenericRepository
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
+//builder.Services.AddSingleton(UnitOfWork);
+//builder.Services.AddSingleton(IUni)
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

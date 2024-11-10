@@ -11,18 +11,19 @@
 
         public string FullName => $"{FirstName} {LastName}";
 
-        public int PhoneNUmber { get; set; }
+        public int PhoneNumber { get; set; }
 
         public string EmailAddress { get; set; }
 
-        public string Country { get; set; }
+        public int CountryID { get; set; }
 
         public DateTime DateOfBirth { get; set; }
 
         public string Address { get; set; } 
 
-        public string Department { get; set; }
+        public int DepartmentID { get; set; }
 
-        public string Designation { get; set; }
+        public int DesignationID { get; set; }
+
     }
 }

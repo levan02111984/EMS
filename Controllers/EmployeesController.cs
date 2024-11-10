@@ -15,11 +15,16 @@ namespace EMS.Controllers
 {
     public class EmployeesController : Controller
     {
-        private readonly IGenericRepository<Employee> _repository;
 
-        public EmployeesController(IGenericRepository<Employee> repository)
+        //private UnitOfWork unitOfWork = new UnitOfWork();
+        private readonly IGenericRepository<Employee> _repository;
+        private readonly IGenericRepository<Country> _repositoryCountry;
+        private ApplicationDbContext _dbcontext;
+
+        public EmployeesController(IGenericRepository<Employee> repository,ApplicationDbContext dbContext)
         {
             _repository = repository;
+            _dbcontext = dbContext;
         }
 
         // GET: Employees
@@ -27,8 +32,45 @@ namespace EMS.Controllers
         {
            
             var employeeList = await _repository.GetAllAsync();
+
+            //Apply UnitOfWork
+            //var employeeList =await unitOfWork.EmployeeRepository.GetAllAsync
+            //
+            //var designationList = await _dbcontext.Designations.ToListAsync();
+            //var coutryList = await _dbcontext.Countries.ToListAsync();
+            //var departmentList = await _dbcontext.Departments.ToListAsync();
+
+
+            //var employeeViewModel = new EmployeeViewModel
+            //{
+            //    Employees = employeeList,
+            //    CountryName = this.GetStringName<Country>(coutryList, employee.Id),
+            //    DesignationName = this.GetStringName<Designation>(designationList, employee.Id),
+            //    DepartmentName = this.GetStringName<Department>(departmentList, employee.Id),
+            //};
+
             
-            return View(employeeList);
+            //Get Result from 4 table and Map the result to EmployeeViewModel
+            var resultEmployeeView = await (from emp in _dbcontext.Employees
+                       from cty in _dbcontext.Countries
+                       from dep in _dbcontext.Departments
+                       from des in _dbcontext.Designations
+                       where emp.CountryID == cty.Id &&
+                       emp.DepartmentID == dep.Id &&
+                       emp.DesignationID == des.Id
+                       select new EmployeeViewModel
+                       {
+                           Employee = emp,
+                           CountryName = cty.Name,
+                           DepartmentName = dep.Name,
+                           DesignationName = des.Name
+                       }).ToListAsync();
+
+
+
+
+
+            return View(resultEmployeeView);
         }
 
         // GET: Employees/Details/5
@@ -50,25 +92,33 @@ namespace EMS.Controllers
         }
 
         // GET: Employees/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            //Binding Data to Dropdownlist
+            var designationList = await _dbcontext.Designations.ToListAsync();
+            var coutryList = await _dbcontext.Countries.ToListAsync();
+            var departmentList = await _dbcontext.Departments.ToListAsync();
+
+            ViewData["viewDataDesignation"] = new SelectList(designationList, "Id", "Name");
+            ViewData["viewDataCountry"] = new SelectList(coutryList, "Id", "Name");
+            ViewData["viewDataDepartment"] = new SelectList(departmentList, "Id", "Name");
+
             return View();
         }
 
         // POST: Employees/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,EmpNo,FirstName,MiddleName,LastName,PhoneNUmber,EmailAddress,Country,DateOfBirth,Address,Department,Designation,CreatedByID,CreatedOn,ModifiedBy,ModifiedOn")] Employee employee)
+        public async Task<IActionResult> Create(Employee employee)
         {
             if (ModelState.IsValid)
             {
                 employee.CreatedByID = "Van";
                 employee.CreatedOn = DateTime.Now;
+               // employee.Department = 
 
                 await _repository.InsertAsync(employee);
-                await _repository.SaveAsync();
+                await _repository.SaveAsync(); // Commit to Database
                 return RedirectToAction(nameof(Index));
             }
             return View(employee);
@@ -77,6 +127,15 @@ namespace EMS.Controllers
         // GET: Employees/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            var designationList = await _dbcontext.Designations.ToListAsync();
+            var coutryList = await _dbcontext.Countries.ToListAsync();
+            var departmentList = await _dbcontext.Departments.ToListAsync();
+
+            ViewData["viewDataDesignation"] = new SelectList(designationList, "Id", "Name");
+            ViewData["viewDataCountry"] = new SelectList(coutryList, "Id", "Name");
+            ViewData["viewDataDepartment"] = new SelectList(departmentList, "Id", "Name");
+
+
             if (id == null)
             {
                 return NotFound();
@@ -87,15 +146,37 @@ namespace EMS.Controllers
             {
                 return NotFound();
             }
+
             return View(employee);
         }
 
+        public string GetStringName<T>(List<T> objectList, int id)
+        {
+            string valueReturn;
+            if (objectList == null || objectList.Count == 0)
+            {
+                return string.Empty;
+            }
+            switch (objectList)
+            {
+                case Country:
+                    valueReturn =  objectList.OfType<Country>().FirstOrDefault(p => p.Id == id)?.Name ?? string.Empty;
+                    break;
+                case Department:
+                    valueReturn = objectList.OfType<Department>().FirstOrDefault(p => p.Id == id)?.Name ?? string.Empty;
+                    break;
+                case Designation:
+                    valueReturn  = objectList.OfType<Designation>().FirstOrDefault(p => p.Id == id)?.Name ?? string.Empty;
+                    break;
+                default: valueReturn = string.Empty; break;
+            }
+            return valueReturn;
+        }
+
         // POST: Employees/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,EmpNo,FirstName,MiddleName,LastName,PhoneNUmber,EmailAddress,Country,DateOfBirth,Address,Department,Designation,CreatedByID,CreatedOn,ModifiedBy,ModifiedOn")] Employee employee)
+        public async Task<IActionResult> Edit(int id,Employee employee)
         {
             if (id != employee.Id)
             {
@@ -156,9 +237,9 @@ namespace EMS.Controllers
                 await _repository.SaveAsync();
             }
 
-            
             return RedirectToAction(nameof(Index));
         }
 
+        
     }
 }
