@@ -1,9 +1,7 @@
 ﻿@model EMS.Models.City
-
 @{
     ViewData["Title"] = "Details";
 }
-
 <h1>Details</h1>
 
 <div>
@@ -26,11 +24,11 @@
             @Html.DisplayNameFor(model => model.Country)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Country.Id)
+            @Html.DisplayFor(model => model.Country.Name)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?Id" class="btn btn-success">Edit</a>
+    <a asp-action="Index" class="btn btn-success">Back</a>
 </div>

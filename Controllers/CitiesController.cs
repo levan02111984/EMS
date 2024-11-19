@@ -82,7 +82,7 @@ namespace EMS.Controllers
             {
                 return NotFound();
             }
-            ViewData["CountryId"] = new SelectList(_context.Countries, "Id", "Id", city.CountryId);
+            ViewData["viewDataCountry"] = new SelectList(_context.Countries, "Id", "Name", city.Name);
             return View(city);
         }
 
