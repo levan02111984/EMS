@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<EMS.Models.City>
 
 @{
-    ViewData["Title"] = "Country List";
+    ViewData["Title"] = "Town/Cites";
 }
 
-<h1>Index</h1>
+<h1>Town/Cites</h1>
 
 <div class="card">
     <div class="card-header">
@@ -12,7 +12,6 @@
     </div>
     <div class="card-body">
         <table id="example1" class="table table-bordered table-striped">
-            <thead>
             <thead>
                 <tr>
                     <th>
@@ -38,28 +37,28 @@
             <tbody>
                     @foreach (var item in Model)
                     {
-                    <tr>
-                        <td>
-                                @Html.DisplayFor(modelItem => item.Code)
-                        </td>
-                        <td>
-                                @Html.DisplayFor(modelItem => item.Name)
-                        </td>
-                        <td>
-                                @Html.DisplayFor(modelItem => item.Country.Name)
-                        </td>
-                        <td>
-                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success"><i class="fa fa-pen"></i></a>
-                        </td>
-                        <td>
-                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success"><i class="fas fa-search fa-fw"></i></a>
-                        </td>
-                        <td>
-                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-success"><i class="fa fa-trash"></i></a>
-                        </td>
-                    </tr>
-                    }
-            </tbody>
+                        <tr>
+                            <td>
+                                    @Html.DisplayFor(modelItem => item.Code)
+                            </td>
+                            <td>
+                                    @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td>
+                                    @Html.DisplayFor(modelItem => item.Country.Name)
+                            </td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success"><i class="fa fa-pen"></i></a>
+                            </td>
+                            <td>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-success"><i class="fas fa-search fa-fw"></i></a>
+                            </td>
+                            <td>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-success"><i class="fa fa-trash"></i></a>
+                            </td>
+                        </tr>
+                        }
+                </tbody>
         </table>
     </div>
 </div>

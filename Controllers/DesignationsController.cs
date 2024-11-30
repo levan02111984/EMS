@@ -12,8 +12,8 @@ namespace EMS.Controllers
 {
     public class DesignationsController : Controller
     {
-        private readonly ApplicationDbContext _context;
 
+        private readonly ApplicationDbContext _context;
         public DesignationsController(ApplicationDbContext context)
         {
             _context = context;
@@ -81,12 +81,9 @@ namespace EMS.Controllers
             return View(designation);
         }
 
-        // POST: Designations/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Code,Name,CreatedByID,CreatedOn,ModifiedBy,ModifiedOn")] Designation designation)
+        public async Task<IActionResult> Edit(int id,Designation designation)
         {
             if (id != designation.Id)
             {
