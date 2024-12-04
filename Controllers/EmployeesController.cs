@@ -33,14 +33,7 @@ namespace EMS.Controllers
            
             var employeeList = await _repository.GetAllAsync();
 
-            //Apply UnitOfWork
-            //var employeeList =await unitOfWork.EmployeeRepository.GetAllAsync
-            //
-            //var designationList = await _dbcontext.Designations.ToListAsync();
-            //var coutryList = await _dbcontext.Countries.ToListAsync();
-            //var departmentList = await _dbcontext.Departments.ToListAsync();
-
-            
+               
             //Get Result from 4 table and Map the result to EmployeeViewModel
             var resultEmployeeView = await (from emp in _dbcontext.Employees
                        from cty in _dbcontext.Countries

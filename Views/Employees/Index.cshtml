@@ -45,7 +45,7 @@
                     <th>
                         @Html.DisplayNameFor(model => model.DesignationName)
                     </th>
-                    <th> 
+                    <th>
                         Edit
                     </th>
                     <th>
@@ -57,7 +57,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model )
+                @foreach (var item in Model)
                 {
                     <tr>
                         <td>
@@ -86,7 +86,7 @@
                             @Html.DisplayFor(modelItem => item.DesignationName)
                         </td>
 
-                        <td >
+                        <td>
                             <a asp-action="Edit" asp-route-id="@item.Employee.Id" class="btn btn-success"><i class="fa fa-pen"></i></a>
                         </td>
                         <td>
@@ -99,5 +99,5 @@
                 }
             </tbody>
         </table>
-    <div>
-</div>
+        <div>
+        </div>

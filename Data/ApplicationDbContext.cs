@@ -13,7 +13,25 @@ namespace EMS.Data
         {
         }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            //Set to delete behavior for all relationship
+            foreach (var relationship in builder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Cascade;
+               }
+
+            builder.Entity<LeaveApplication>()
+                .HasOne(f => f.Status)
+                .WithMany()
+                .HasForeignKey(f => f.StatusId)
+                .OnDelete(DeleteBehavior.NoAction);
+        }
+
         public DbSet<Employee> Employees { get; set; }
+
         public DbSet<Department> Departments { get; set; }
 
         public DbSet<Bank> Banks { get; set; }
@@ -27,7 +45,10 @@ namespace EMS.Data
         public DbSet<Country> Countries { get; set; }
 
         public DbSet<City> Cities { get; set; }
+
         public DbSet<Designation> Designations { get; set; } 
+
+        public DbSet<LeaveApplication> LeaveApplications { get; set; }
 
     }
 }
