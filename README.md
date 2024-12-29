@@ -1,5 +1,5 @@
 # EMS
-Employee Management System
+Employee Management System - For researching purpuse only. Enjoy coding
 
 - MVC Entity Framwork Core 8.0 - Singleton , GenericRespository , Unit of Work Partern
 - JQuery - Bootstrap
